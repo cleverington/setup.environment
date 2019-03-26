@@ -8,6 +8,5 @@ quickly.
 
 Low Priority
 ------------
-- Add atom linter-twig and test it to make sure it works
-- Add atom linter-sass-lint and test it to make sure it works
-- Add atom snippets http://flight-manual.atom.io/using-atom/sections/snippets/
+- Replease Atom with VS Code plugins / extensions
+- Add BASH-IT installation and configuration

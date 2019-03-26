@@ -29,6 +29,10 @@ Then, for any package, you can type `code --install-extension {package_name}`
     - Will need to install tslint to use ( 'npm install -g tslint' )
 - igorming.useful-react-snippets (Useful React Snippets)
 
+### Drupal Specific Configurations
+
+See https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code for Community recommended setup and configuration tools.
+
 
 VS Code Settings
 -------------

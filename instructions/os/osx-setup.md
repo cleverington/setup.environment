@@ -8,10 +8,10 @@ OS Setup
 --------
 - Check for system updates Apple Icon > Software Update
 
-System Preferences (El Capitan)
+System Preferences (High Sierra)
 -------------------------------
 - Sharing > Computer Name > Type your desired name
-- Trackpad > Point and Click > Tap to click
+- Trackpad > Point and Click > Tap to click > On
 - Trackpad > Point and Click > Silent clicking > On
 - Keyboard > Key Repeat > Fast
 - Keyboard > Delay Until Repeat > Short
@@ -24,6 +24,9 @@ three finger drag
 - Energy Saver > Power Adapter > Prevent computer from sleeping automatically
 - Mission Control > Mission Control > Second Drop Down > Middle Mouse Button
 - Mission Control > Group Windows By Application > On
+- Override Mouse Tracking Speed:
+  - Open Terminal
+  - Execute Command: `defaults write -g com.apple.mouse.scaling X.0`
 
 Turn on FileVault
 --------------------
@@ -43,6 +46,7 @@ command line tools but at a minimum the command line tools are required.
 - `xcode-select --install` -or-
 - Go to the app store and download the full package.  The full package is
 great for if you do any sort of mobile development.
+  - https://developer.apple.com/xcode/
 
 Manual Download Applications
 ----------------------------
@@ -51,9 +55,14 @@ Manual Download Applications
 - Color picker (App store) - The free one
 - Slack (App store)
 - Atom (https://atom.io/)
-- Sublime (@todo)
-- Install SourceTree (https://www.sourcetreeapp.com/download/) - Register a new
+- VS Code (https://code.visualstudio.com/download)
+- iTerm2 (https://www.iterm2.com/)
+
+### Install Git GUI Tools
+- SourceTree (https://www.sourcetreeapp.com/download/) - Register a new
 account.  It's free.
+- GitHub Desktop (https://desktop.github.com/)
+- Git Tower (https://www.git-tower.com/)
 
 Setup Time Machine
 ------------------
@@ -109,6 +118,14 @@ Consolas font
 - `cabextract PowerPointViewer.exe`
 - `cabextract ppviewer.cab`
 - `open CONSOLA*.TTF`
+
+Open Dyslexic font
+-------------
+- Navigate to https://dl.dafont.com/dl/?f=open_dyslexic
+- `cd ~/Downloads`
+- Unzip open_dyslexic
+- Open *Font Book*
+- Click & Drag all files except `README.txt` to *Font Book*
 
 Solarized Color Scheme
 ----------------------

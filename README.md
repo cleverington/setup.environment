@@ -18,6 +18,16 @@ pick your os and follow the setup instructions.  Once the setup instructions are
 complete you should be able to then find additional tools useful for certain
 kinds of development.  See the kinds-of-development section.
 
+Assumed File Structure
+----------------------
+Create these directories before / as you get started.
+
+- `mkdir ~/repos` (git clone here)
+- `mkdir ~/lando` (lando repos here)
+- `mkdir ~/patches` (contrib patches here)
+- `mkdir ~/sql` (.sql files here - exclude from backups)
+- `mkdir ~/vms` (Vangrantfiles here)
+
 Setting up this repository
 --------------------------
 - This repository is meant to be used as a backup and quick transfer of my local environment setup.  If you wish to use my shell configuration you can follow the steps below.
@@ -32,10 +42,3 @@ setup your publickey on GitHub or use the https version of the url.
 - `git config --global user.name "John Doe"`
 - `git config --global user.email johndoe@email.com`
 - Run scripts/setup-symlinks.sh to setup home_directory files
-
-Assumed File Structure
-----------------------
-- `mkdir ~/repos` (git clone here)
-- `mkdir ~/lando` (lando repos here)
-- `mkdir ~/patches` (contrib patches here)
-- `mkdir ~/sql` (.sql files here - exclude from backups)

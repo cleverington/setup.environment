@@ -15,7 +15,7 @@ fi
 git config --global user.name "$NAME"
 git config --global user.email $EMAIL
 git config --global core.autocrlf input
-git config --global core.editor vim
+git config --global core.editor "code -w -n"
 git config --global alias.amend 'commit --amend'
 git config --global alias.br branch
 git config --global alias.ci commit

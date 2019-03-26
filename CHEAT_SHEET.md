@@ -52,6 +52,12 @@ VIM
 ---
 - `:q` # Exit vim
 
+VS Code
+---
+- `⌘K V` # Markdown Preview
+- `code {app name}` # Open App via Terminal
+- https://code.visualstudio.com/docs/editor/command-line # Full List
+
 SERVER STATUS
 -------------
 - https://support.rackspace.com/how-to/checking-system-load-on-linux/
