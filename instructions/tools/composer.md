@@ -1,5 +1,5 @@
-Composer
---------
+# Composer
+
 - Project: https://github.com/composer/composer
 - Docs: https://getcomposer.org/doc/
 - Download:
@@ -7,3 +7,24 @@ Composer
 - `php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"`
 - `php composer-setup.php`
 - `php -r "unlink('composer-setup.php');"`
+
+
+## Example Global `composer.json`
+
+**Note:** This has been updated for Composer 2 as of 2/1/21, which means no more using `hirak/prestissimo`.
+
+``` composer
+{
+  "require": {
+    "pantheon-systems/terminus": "^2.5",
+    "drupal/coder": "^8.3",
+    "wp-cli/wp-cli": "*",
+    "wp-cli/wp-cli-bundle": "^2.1",
+    "wp-coding-standards/wpcs": "dev-master",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+  }
+}
+```
